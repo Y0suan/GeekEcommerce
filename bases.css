@@ -1,0 +1,33 @@
+:root{
+   
+    --Lato: 'Lato', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+
+    --grisDeFondo: rgb(216, 216, 216) ;
+    /* --grisDeFondo: rgb(248, 248, 248) ; */
+
+    --Rojo:rgb(244, 44, 55);
+    --RojoClaro:rgb(254, 123, 125);
+    --Azul:rgb(22, 132, 253);
+    --Verde:rgb(44, 208, 111);
+    --Amarillo:rgb(253, 198, 46);
+    --Gris:rgb(155, 153, 153);
+
+    --GA1:rgb(127, 84, 187);
+    --GA2:rgb(128, 149, 209);
+    --GA3:rgb(129, 205, 227);
+
+    --BlancoTrasparente:rgba(255, 255, 255, 0.537);
+
+    --TextoBlanco:rgb(255, 255, 255);
+}
+
+*{
+    font-family: var(--Lato);
+    margin: 0;
+    padding: 2px 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--grisDeFondo);
+}

@@ -1,0 +1,41 @@
+.ofertas__scrollHorizontal{
+    display: flex;
+    overflow-x: scroll;
+    width:100%;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    gap: 12px;
+}
+
+
+.ofertas{
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    border-radius: 13px;
+    background: linear-gradient(86deg, var(--GA1) 0%, var(--GA2) 46%, var(--GA3) 100%);
+}
+.ofertas img{
+    width: 50%;
+    padding: 10px;
+}
+.ofertas__texto{
+    min-width: 40%;
+    background-color: var(--BlancoTrasparente);
+    margin: 1rem;
+    border-radius: 13px;
+    color: var(--TextoBlanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ofertas__texto p{
+    font-size: 10px;
+    align-items: center;
+}
+.ofertas__texto h2{
+    font-size: 45px;
+    text-align: center;
+}

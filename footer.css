@@ -1,0 +1,42 @@
+.menuGeneral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.menuGeneral a{
+    text-decoration: none;
+    color: var(--Gris);
+}
+
+
+.Contacto{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.Contacto form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: var(--Lato);
+}
+.Contacto input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.Contacto .btn{
+    background-color: var(--Azul);
+    color: var(--TextoBlanco);
+    border-color: transparent;
+}
+
+.desarollador{
+    padding: 10px;
+    color: var(--Gris);
+    text-align: center;
+}
