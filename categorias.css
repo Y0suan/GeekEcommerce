@@ -27,3 +27,12 @@
 .categoria__cont i{
     font-size: 1.5rem;
 }
+.c{
+    display: none;
+}
+@media (min-width: 1024px){
+    .categorias__scrollHorizontal{
+        display: none;
+    }   
+
+}

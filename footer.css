@@ -40,3 +40,26 @@
     color: var(--Gris);
     text-align: center;
 }
+
+@media (min-width: 1024px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menuGeneral{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .Contacto{
+        width: 50%;
+    }
+    .Contacto form{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .desarollador{
+        width: 100%;
+        text-align: center;
+    }
+}

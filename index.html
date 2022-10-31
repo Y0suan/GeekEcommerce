@@ -14,6 +14,7 @@
    <link rel="stylesheet" href="./categorias.css">
    <link rel="stylesheet" href="populares.css">
    <link rel="stylesheet" href="footer.css">
+   <link rel="stylesheet" href="./promoDesktop.css">
     <title>Ecommerce</title>
 </head>
 <body>
@@ -21,7 +22,17 @@
 
         <div class="nav">
             <h1 class="logo">Geek</h1>
-            <a href="#" class="nav__login"><i class="uil uil-user-circle"></i></a>
+
+            <div class="buscador2">
+                <input type="text" name="search" class="buscador__input" placeholder="Search">
+            </div>
+            
+            <div>            
+            <a href="#" class="nav__2"><i class="uil uil-search"></i></a>
+            <a href="#" class="nav__2"><i class="uil uil-shopping-bag"></i></a>
+            <a href="./login.html" class="nav__login"><i class="uil uil-user-circle"></i></a>
+
+            </div>
         </div>
 
         <div class="buscador">
@@ -62,7 +73,7 @@
             <article class="categorias__scrollHorizontal">
                 
                     <a href="#" class="categoria__cont">
-                        <i class="uil uil-mobile-android"></i>
+                        <i  class="uil uil-mobile-android movil"></i>
                         <p>Mobile</p>
                     </a>
 
@@ -82,7 +93,8 @@
                     </a>
 
             </article>
-        </section>
+        </section>     
+
         <section>
             <h3 class="populares__titulo">Populares</h3>
             <article class="populares">
@@ -157,6 +169,23 @@
                     <div class="popular__cart__info">
                     <p>Laptop Lenovo</p>
                     <a class="resaltar">$12000</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="promo2__desktop">
+                <img src="./assets/labtop.png" alt="">
+                <div class="promo2__cont">
+                    <div class="promo2__text1">
+                        <p>20% OFF</p>
+                        <h3>SUPER LIGERA</h3>
+                        <P>30 Oct 2022</P>
+                    </div>
+                    <div class="promo2__text2">
+                        <p>Laptop Lenovo</p>
+                        <h3>Promo de Verano</h3>
+                        <p class="text" >Algunos puertos/ranuras pueden ser opcionales o variar; la textura de la tapa también es opcional</p>
+                        <a class="btn" href="#">Comprar</a>
                     </div>
                 </div>
             </article>
